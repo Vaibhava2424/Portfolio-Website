@@ -1,0 +1,152 @@
+/* Detailed View Page */
+.detailed-wrapper {
+  padding: 40px;
+  background: #000;
+  min-height: 100vh;
+}
+
+.back-btn {
+  color: #00ffe0;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.back-btn:hover {
+  color: #00c9b8;
+}
+
+/* Card Layout */
+.dv-card {
+  display: flex;
+  gap: 30px;
+  /* background: rgba(15, 15, 15, 0.95); */
+  border: 1px solid #0b0b0b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,255,224,1);
+}
+
+/* Image Section */
+.dv-img-box {
+  flex: 1.2;
+}
+.dv-img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #00ffe0;
+}
+
+/* Content */
+.dv-content {
+  flex: 2;
+  color: #dcdcdc;
+}
+
+.dv-title {
+  font-size: 30px;
+  color: #00ffe0;
+  margin-bottom: 5px;
+}
+
+.dv-category {
+  font-size: 15px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.dv-desc {
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Tech Stack */
+.dv-subtitle {
+  color: #00ffe0;
+  margin-bottom: 10px;
+}
+
+.dv-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dv-tech {
+  background: #0e0e0e;
+  border: 1px solid #00ffe080;
+  color: #00ffe0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.dv-links {
+  display: flex;
+  gap: 12px;
+}
+
+.dv-btn {
+  padding: 10px 16px;
+  background: #00ffe0;
+  color: #000;
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.dv-btn:hover {
+  background: #00cbbf;
+}
+
+.dv-btn.outline {
+  background: transparent;
+  color: #00ffe0;
+  border: 2px solid #00ffe0;
+}
+
+.dv-btn.outline:hover {
+  background: #00ffe0;
+  color: #000;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .dv-card {
+    flex-direction: column;
+  }
+
+  .dv-title {
+    font-size: 24px;
+  }
+}
+
+.bottom-back-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.bottom-back-btn {
+  color: #00ffe0;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 16px;
+  border: 1px solid #00ffe0;
+  border-radius: 8px;
+  transition: 0.3s;
+  box-shadow: 0 0 8px rgba(0,255,224,0.3);
+}
+
+.bottom-back-btn:hover {
+  background: #00ffe0;
+  color: black;
+  box-shadow: 0 0 12px rgba(0,255,224,0.6);
+}

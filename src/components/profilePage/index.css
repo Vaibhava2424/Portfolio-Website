@@ -1,0 +1,170 @@
+/* Page Wrapper */
+.profile-container {
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+/* Left Section */
+.profile-left {
+  width: 30%;
+  text-align: center;
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid #111;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 15px rgba(0,255,224,0.2);
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #00ffe0;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #00ffe0;
+}
+
+.profile-role {
+  color: #bbb;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Social Links */
+.profile-social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-social a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #00ffe0;
+  color: #00ffe0;
+  border-radius: 8px;
+  transition: .3s;
+  font-weight: 600;
+}
+
+.profile-social a:hover {
+  background: #00ffe0;
+  color: #000;
+}
+
+/* Right Section */
+.profile-right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-section {
+  background: rgba(10, 10, 10, 0.85);
+  border: 1px solid #111;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,255,224,0.14);
+}
+
+.profile-section h3 {
+  color: #00ffe0;
+  margin-bottom: 10px;
+}
+.profile-section h4 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00ffe0;
+  border-left: 3px solid #00ffe0;
+  padding-left: 8px;
+}
+
+
+.profile-section p, 
+.profile-section ul {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.skills-grid span {
+  background: #111;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #222;
+  transition: .2s;
+}
+
+.skills-grid span:hover {
+  border: 1px solid #00ffe0;
+}
+
+/* --------------- Responsive --------------- */
+
+/* Tablets & smaller laptops */
+@media (max-width: 992px) {
+  .profile-container {
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .profile-left {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .profile-right {
+    width: 100% !important;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .profile-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .profile-photo {
+    width: 130px;
+    height: 130px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .profile-role {
+    font-size: 13px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .profile-section {
+    padding: 15px;
+  }
+}
