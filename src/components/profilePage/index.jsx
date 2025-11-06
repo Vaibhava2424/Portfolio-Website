@@ -22,9 +22,11 @@ function Profile() {
           <div className="profile-social">
             <a href="https://github.com/Vaibhava2424" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/vaibhava-raju-nadakuditi" target="_blank">LinkedIn</a>
-            <a href="mailto:vaibhava2424@gmail.com">Email</a>
+            <a href="https://drive.google.com/file/d/1k-9cBPyAeSoPLxTpnhMMq8eYhh5cEs32/view?usp=sharing">Resume 1</a>
+            <a href="https://drive.google.com/file/d/1f4r18QMAnKGkQNpbWPLBzeDQbsDrb82D/view?usp=sharing">Resume 2</a>
+
           </div>
-        </div>
+        </div>  
 
         <div className="profile-right">
 
