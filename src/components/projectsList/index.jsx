@@ -35,13 +35,25 @@ const projectsList = [
     category: "other",
   },
   {
+    id:89,
+    title: "Nextjs Project",
+    description: "A simple e-commerce front-end built with Next.js, featuring multi-page navigation, product listings, and a clean responsive UI. The platform includes pages for Home, About, Products, Cart, and Feedback, offering users a smooth browsing experience. Integrated with dynamic routing and modern layouts, it serves as a foundation for future e-commerce expansion.",
+    link: "https://next-js-project-eight-mu.vercel.app",
+    github: {
+        frontend: "https://github.com/Vaibhava2424/NextJs-Project",
+    },
+    image: "https://res.cloudinary.com/dodfv5sbg/image/upload/v1763011639/Screenshot_2025-11-13_105705_jjxlvm.png",
+    techStack: ["Nextjs","Reactkjs", "Tailwind CSS"],
+    category: "frontend",
+  },
+  {
     id:4,
     title: "AI Chatbot",
     description:
       "Developed a functional AI chatbot capable of interacting with users and answering queries in real-time. Built using BotPress tools, integrated NLP features, and tested through real-time chat previews. Focused on improving conversational design, automation, and AI workflows.",
     link: "https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/12/28/13/20241228132934-Q9SXG0M8.json",
     image: "https://res.cloudinary.com/dodfv5sbg/image/upload/v1762233084/Screenshot_2025-11-04_104057_ffa9di.png",
-    techStack: ["BotPress", "AI"],
+    techStack: ["BotPress WorkSpace", "BotPress Studio", "BotPress Web Chat Preview"],
     category: "AI",
   },
   {
@@ -81,6 +93,7 @@ const projectsList = [
     techStack: ["React", "TypeScript", "Node.js", "MongoDB"],
     category: "mern",
   },
+  
 
   // ======== SMALL PROJECTS ADDED ========
 

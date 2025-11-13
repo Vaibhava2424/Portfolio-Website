@@ -8,7 +8,7 @@ function Home() {
   const [filter, setFilter] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filters = ["All", "mern", "responsive", "AI", "other"];
+  const filters = ["All", "mern", "responsive", "AI", "other","frontend"];
 
   const filteredProjects = projectsList.filter(project => {
     const matchFilter = filter === "All" || project.category.toLowerCase() === filter.toLowerCase();
@@ -23,7 +23,7 @@ function Home() {
       <div className="search-box">
         <input
           type="text"
-          placeholder="🔍 Search projects..."
+          placeholder="🔍 Search projects by it's Title..."
           value={searchQuery}
           onChange={e => setSearchQuery(e.target.value)}
         />
